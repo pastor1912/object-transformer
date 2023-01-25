@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true,
+    // "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["./src/"],
+//   "exclude": [
+//     "node_modules",
+//     "**/*.spec.ts",
+//     "dist"
+// ]
+}

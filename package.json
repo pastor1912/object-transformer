@@ -1,15 +1,15 @@
 {
     "name": "object-transformer",
     "version": "0.0.5",
-    "repository": "https://github.com/manuelvulp/object-transformer",
-    "homepage": "https://github.com/manuelvulp/object-transformer",
-    "description": "Javascript object transformer",
-    "main": "index",
+    "repository": "https://github.com/pastor1912/object-transformer",
+    "homepage": "https://github.com/pastor1912/object-transformer",
+    "description": "Javascript object transformer + advance + typescript",
+    "main": "dist",
     "keywords": ["node", "object", "transform", "transformer", "parse", "parser", "format", "formatter", "schema", "model", "database"],
     "directories": {
         "example": "example"
     },
-    "author": "Manuel Vulp",
+    "author": "pastor1912",
     "license": "MIT",
     "devDependencies": {
         "blanket": "^1.1.6",
@@ -28,6 +28,8 @@
         "sinon": "~1.10.0"
     },
     "scripts": {
+        "start": "tsc --watch",
+        "build": "tsc",
         "test": "mocha  --require must --recursive -c --reporter spec",
         "testw": "mocha  --require must --recursive -c --reporter spec -w",
         "coverage": "mocha --require blanket --require must --reporter html-cov test/**/*.js > coverage.html",
